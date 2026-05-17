@@ -17,6 +17,14 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 from .views import ActivityViewSet, LeaderboardViewSet, TeamViewSet, UserViewSet, WorkoutViewSet
+import os
+
+# Get the codespace name from environment variable
+codespace_name = os.environ.get('CODESPACE_NAME')
+if codespace_name:
+     base_url = f"https://{codespace_name}-8000.app.github.dev"
+else:
+     base_url = "http://localhost:8000"
 
 router = DefaultRouter()
 router.register('teams', TeamViewSet)
