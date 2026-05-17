@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="OctoFit favicon">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#32b2ff" />
+      <stop offset="100%" stop-color="#8f55ff" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#062050" />
+  <circle cx="32" cy="24" r="10" fill="url(#favGrad)" />
+  <path d="M24 34 C24 30, 28 28, 32 30 C36 28, 40 30, 40 34 S36 40, 32 40 S24 38, 24 34" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" />
+  <path d="M18 46 C22 42, 26 44, 30 46" fill="none" stroke="#32b2ff" stroke-width="4" stroke-linecap="round" />
+  <path d="M34 46 C38 44, 42 42, 46 46" fill="none" stroke="#8f55ff" stroke-width="4" stroke-linecap="round" />
+</svg>
